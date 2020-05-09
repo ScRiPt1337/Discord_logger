@@ -13,7 +13,7 @@ banner = """
                           coded by script1337
 
 """
-
+token = input("Enter your bot token# ")
 help = """
 command:
        1.$show_victim (Get list of  all victims)
@@ -117,4 +117,4 @@ async def shutdown(ctx):
     exit(0)
 
 
-client.run('NzA1NzM4NjU5MDc2NTA1NjYw.Xq001g.RWROF4fuit-NVi13FWhtMgfzdyw')
+client.run(str(token))
