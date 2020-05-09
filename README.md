@@ -1,2 +1,2 @@
 # Discord_logger
-Discord based keylogger
+Discord based keylogger using LowLevelKeyboardProc written in c#
