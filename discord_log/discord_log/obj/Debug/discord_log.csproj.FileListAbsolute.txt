@@ -1,0 +1,10 @@
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.csprojAssemblyReference.cache
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.Properties.Resources.resources
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.csproj.GenerateResource.cache
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.csproj.CoreCompileInputs.cache
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.Form1.resources
+C:\Users\script\source\repos\discord_log\discord_log\bin\Debug\discord_log.exe.config
+C:\Users\script\source\repos\discord_log\discord_log\bin\Debug\discord_log.exe
+C:\Users\script\source\repos\discord_log\discord_log\bin\Debug\discord_log.pdb
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.exe
+C:\Users\script\source\repos\discord_log\discord_log\obj\Debug\discord_log.pdb

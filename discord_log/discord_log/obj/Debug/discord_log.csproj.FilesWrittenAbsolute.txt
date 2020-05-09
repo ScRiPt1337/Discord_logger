@@ -1,0 +1,8 @@
+C:\Users\script\Desktop\discord_log\discord_log\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttribute.cs
+C:\Users\script\Desktop\discord_log\discord_log\obj\Debug\discord_log.Form1.resources
+C:\Users\script\Desktop\discord_log\discord_log\obj\Debug\discord_log.Properties.Resources.resources
+C:\Users\script\Desktop\discord_log\discord_log\obj\Debug\discord_log.exe
+C:\Users\script\Desktop\discord_log\discord_log\obj\Debug\discord_log.pdb
+C:\Users\script\Desktop\discord_log\discord_log\bin\Debug\discord_log.exe.config
+C:\Users\script\Desktop\discord_log\discord_log\bin\Debug\discord_log.pdb
+C:\Users\script\Desktop\discord_log\discord_log\bin\Debug\discord_log.exe
