@@ -40,3 +40,4 @@ command:
 > Enter the limite counter {How much keystrokes you want at a time}
 ## Done
 
+> For help join our discord help server : https://discord.gg/s3Hu9aH
