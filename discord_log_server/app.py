@@ -1,4 +1,7 @@
-from flask import Flask, request
+try:
+    from flask import Flask, request
+except:
+    os.system("python -m pip install flask")
 from pathlib import Path
 
 app = Flask(__name__)
