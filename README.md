@@ -41,3 +41,4 @@ command:
 ## Done
 
 > For help join our discord help server : https://discord.gg/s3Hu9aH
+> video how to setup : https://www.youtube.com/watch?v=VghFnUc54aU
