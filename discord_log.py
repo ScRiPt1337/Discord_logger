@@ -53,7 +53,7 @@ def setup():
         print("Everythink looking good!!!")
     else:
         print(Warning)
-        print("Please Download mono from here then Run this script!")
+        print("Please Download mono from here : https://www.mono-project.com/download/stable/ 64bit then Run this script!")
                
         
 def replace_line(file_name, line_num, text):
