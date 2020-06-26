@@ -1,6 +1,7 @@
 try:
     from flask import Flask, request
 except:
+    import os
     os.system("python -m pip install flask")
 from pathlib import Path
 
